@@ -1,0 +1,56 @@
+.text-blanc {
+  color: #d5d5d5;
+}
+body {
+  margin: 0px;
+  background: #11073c;
+  color: #d5d5d5;
+}
+
+h1.salutation {
+  font-family: "Handjet", cursive;
+  font-weight: bold;
+  font-size: 50px;
+}
+h2.titre {
+  color: #343434;
+  -webkit-text-stroke: 0.5px #8645ff;
+}
+h4 {
+  font-family: "Victor Mono", monospace;
+}
+
+.rounded-img {
+  max-width: 300px;
+  max-height: 300px; /* Ajustez cette valeur selon vos besoins */
+}
+
+.poste {
+  color: #343434;
+  -webkit-text-stroke: 0.5px #8645ff;
+}
+
+span.salut {
+  color: #343434;
+  -webkit-text-stroke: 0.5px #d5d5d5;
+}
+
+#element {
+  font-family: "Handjet", cursive;
+  font-size: 50px;
+}
+.slogan {
+  font-family: "Victor Mono", cursive;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.bg-prim{
+  background: #11073c;
+  color: #fff;
+}
+
+.bg-prim::before{
+  background: #190957;
+  color: #b5adad;
+}
