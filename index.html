@@ -5,63 +5,53 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Tsirinirina Patrick | Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="public/css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 
 <body>
+  <div class="badge-banner">
+    <span class="badge-text">En développement</span>
+  </div>
   <header class="header">
     <div class="container">
       <div class="header-content">
         <h4 class="header-subtitle">Bonjour, Je suis</h4>
         <h1 class="header-title">Tsirinirina Patrick</h1>
         <h6 class="header-mono">Développeur Web | Mobile</h6>
-        <button class="btn btn-outline-primary "><i class="bi-download pr-2"></i> Télécharger mon CV </button>
-        <button class="btn btn-outline-primary ml-3"><i class="bi-telephone pr-2 "></i>Contactez moi</button>
+        <a class="btn btn-outline-light " href="public/Curriculum-Vitae2023.pdf" download><i class="bi-download pr-2"></i> Télécharger mon CV </a>
       </div>
     </div>
   </header>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light  bg-dark text-light" data-spy="affix" data-offset-top="510">
+  <nav class=" sticky-top navbar-expand-lg navbar-light  bg-dark text-light" data-spy="affix" data-offset-top="510">
     <div class="container">
-      <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
-      <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-        <!-- <ul class="navbar-nav brand">
-          <img src="assets/image/avatar-pdp.jpg" alt="" class="brand-img">
-          <li class="brand-txt">
-            <h5 class="brand-title">John Doe</h5>
-            <div class="brand-subtitle">Web Designer | Developer</div>
-          </li>
-        </ul> -->
-        <ul class="navbar-nav mr-auto">
+      <div class="d-flex justify-content-around " id="navbarSupportedContent">
+        <ul class="navbar-nav  ">
           <li class="nav-item">
-            <a href="#home" class="nav-link ">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link ">A Propos</a>
+            <a href="#apropos" class="nav-link ">A Propos de moi</a>
           </li>
         </ul>
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav  ">
           <li class="nav-item">
-            <a href="#blog" class="nav-link">Projet</a>
+            <a href="#competences" class="nav-link ">Compétences</a>
           </li>
-          <li class="nav-item last-item">
-            <a href="#contact" class="nav-link">Contact</a>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#projets" class="nav-link">Mes projets</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <div class="container-fluid bg-dark">
-    <div id="about" class="row about-section px-3">
+    <div id="apropos" class="row about-section px-3">
       <div class="col-lg-4 about-card">
         <h3 class="font-weight-light">Qui suis je?</h3>
         <span class="line mb-5"></span>
         <h5 class="mb-3">Un Développeur Web <span class="fw-bold">/</span> Mobile </h5>
         <p class="mt-20 text-light  text-serif">Passionné par la programmation. Amoureux des nouveaux technologies. Aime les défis. Motivé et disponibles. Je suis un développeur Web et Mobile Junior.</p>
-        <p class="text-light text-serif text-justify">Étudiant en Génie logiciel a l'<a href="#" class="text-monospace  ">Institut d'Enseignement Supérieur d'Antsirabe Vakinankaratra</a>.</p>
-        <button class="btn btn-outline-light w-100"><i class="icon-down-circled2 "></i>Télécharger mon CV</button>
+        <p class="text-light text-serif text-justify">Étudiant diplômé d'une licence professionnelle en Génie logiciel a l'<a href="https://iesav.mg/" class="text-monospace  ">Institut d'Enseignement Supérieur d'Antsirabe Vakinankaratra</a>.</p>
       </div>
       <div class="col-lg-4 about-card">
         <h3 class="font-weight-light">Information personnel</h3>
@@ -106,11 +96,11 @@
       </div>
     </div>
   </div>
-  <section class="section  bg-dark" id="resume">
+  <section class="section  bg-dark" id="competences">
     <div class="container">
-      <h2 class="mb-3 px-5 text-center"><span class="text-purple"></span>Mes Formation et Competences Technologie</h2>
-      <div class="row px-5">
-        <div class="col-md-6 col-lg-6">
+      <h2 class=" px-1 text-center"><span class="text-purple"></span>Mes Formation et Competences Technologie</h2>
+      <div class="row ">
+        <div class="col-12 col-lg-6">
           <div class="card bg-purple rounded-2">
             <div class="card-header">
               <div class="mt-2">
@@ -165,13 +155,13 @@
                   <span class="star" data-value="5"><i class="bi bi-star text-danger"></i></span>
                 </div>
               </div>
-      
+
 
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-6">
-          <div class="card bg-purple  rounded-3">
+          <div class="card bg-purple  rounded-2">
             <div class="card-header">
               <div class="pull-left">
                 <h4 class="mt-2">Technologie de Développement</h4>
@@ -226,14 +216,117 @@
               <div class="progress mb-3 bg-dark">
                 <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              
+
             </div>
           </div>
-          
+
         </div>
       </div>
     </div>
   </section>
+
+  <section class=" bg-dark" id="projets">
+    <div class="container">
+      <h2 class="mb-3 px-1 text-center"><span class="text-purple"></span>Mes projets réalisé</h2>
+      <div class="row ">
+        <div class="blog-card bg-gray rounded-2 border-gray ">
+          <div class="img-holder">
+            <img src="public/images/grh_1.png" alt="Capture d'écran du grh">
+          </div>
+          <div class="content-holder">
+            <h6 class="title ">Gestion de Ressource Humaine et Pointage</h6>
+            <p class="text-type ">Web & Mobile Application </p>
+            <span class="line"></span>
+            <p class="post-details">
+              <a href="#">HTML5/CSS3/Js</a>
+              <a href="#">Node/Express.js</a>
+              <a href="#">Flutter</a>
+              <a href="#">MySQL</a>
+            </p>
+            <p class="text-light  text-serif m-0">Application web pour la gestion des ressources humaines et pointage personnel via Qr-Code. Une application qui offre une solution intégrée pour suivre, gérer et optimiser efficacement la présence, les heures travaillées et les données essentielles du personnel, simplifiant ainsi les processus de gestion de RH et améliorant la productivité globale d'une entreprise.</p>
+            <p class="offline">(Non déployé)</p>
+            <a href="https://github.com/Tsirinirina/Gestion_ressource_humaines_app_v2.git" class=" btn btn-outline-light mt-1">Voir demos sur Github<i class="bi-chevron-double-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-card bg-gray rounded-2 border-gray ">
+          <div class="img-holder">
+            <img src="public/images/sans-capture.png" alt="Capture d'écran du grh">
+          </div>
+          <div class="content-holder">
+            <h6 class="title ">Gestion d'un établissement scolaire</h6>
+            <p class="text-type ">Web Application</p>
+            <span class="line"></span>
+            <p class="post-details">
+              <a href="#">HTML5/CSS3/JS</a>
+              <a href="#">Php</a>
+              <a href="#">Mysql</a>
+            </p>
+            <p class="text-light  text-serif m-0">Application web de gestion d'établissement scolaire offre une plateforme complète et centralisée permettant aux administrateurs de suivre facilement les notes des élèves, de gérer les listes des professeurs, et de gérer tous les aspects essentiels de l'environnement scolaire, simplifiant ainsi les tâches administratives et favorisant une meilleure collaboration entre tous les acteurs de l'établissement.</p>
+            <p class="offline">(Non déployé/ en développement)</p>
+            <a href="https://github.com/Tsirinirina/gestion_ecole.git" class=" btn btn-outline-light mt-1 ">Voir demos sur Github<i class="bi-chevron-double-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-card bg-gray rounded-2 border-gray ">
+          <div class="img-holder">
+            <img src="public/images/sans-capture.png" alt="Capture d'écran du grh">
+          </div>
+          <div class="content-holder">
+            <h6 class="title ">Gestion de stock</h6>
+            <p class="text-type ">Desktop Application</p>
+            <span class="line"></span>
+            <p class="post-details">
+              <a href="#">Java</a>
+              <a href="#">Mysql</a>
+            </p>
+            <p class="text-light  text-serif m-0">Logiciel de gestion des produits et du stockage permettant aux utilisateurs de gérer efficacement les listes de produits, de suivre les niveaux de stock, et de gérer les opérations de caisse, offrant ainsi une solution complète pour optimiser la gestion des stocks et simplifier les processus de vente au sein de votre entreprise.</p>
+            <a href="https://github.com/Tsirinirina/cine_packs_app.git" class=" btn btn-outline-light mt-1 ">Voir demos sur Github<i class="bi-chevron-double-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-card bg-gray rounded-2 border-gray ">
+          <div class="img-holder">
+            <img src="public/images/sans-capture.png" alt="Capture d'écran du grh">
+          </div>
+          <div class="content-holder">
+            <h6 class="title ">Cinema Blog</h6>
+            <p class="text-type ">Web Application</p>
+            <span class="line"></span>
+            <p class="post-details">
+              <a href="#">HTML5/CSS3/JS</a>
+              <a href="#">Symfony 6</a>
+              <a href="#">Mysql</a>
+            </p>
+            <p class="text-light  text-serif m-0">Application web de gestion de films et séries offre une plateforme collaborative où les utilisateurs peuvent partager et consulter une vaste liste de films et séries avec leurs genres, Synopsys, Durées, producteurs, Dates de sortie, et bien plus encore, créant ainsi une communauté dédiée aux passionnés de cinéma et de divertissement.</p>
+            <p class="offline">(Non déployé/ en développement)</p>
+            <a href="https://github.com/Tsirinirina/cine_packs_app.git" class=" btn btn-outline-light mt-1 ">Voir demos sur Github<i class="bi-chevron-double-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-card bg-gray rounded-2 border-gray ">
+          <div class="img-holder">
+            <img src="public/images/sans-capture.png" alt="Capture d'écran du grh">
+          </div>
+          <div class="content-holder">
+            <h6 class="title ">Application de localisation</h6>
+            <p class="text-type ">Mobile Application</p>
+            <span class="line"></span>
+            <p class="post-details">
+              <a href="#">Flutter</a>
+            </p>
+            <p class="text-light  text-serif m-0">Application mobile qui utilise des technologies de géolocalisation avancées pour fournir aux utilisateurs une localisation précise en temps réel, incluant les coordonnées de latitude et longitude, ainsi que des informations détaillées sur les rues, le pays et la ville, permettant ainsi une navigation aisée et une expérience enrichissante dans n'importe quel endroit.</p>
+            <p class="offline">(En développement)</p>
+            <a href="https://github.com/Tsirinirina/Localisation_app_flutter.git" class=" btn btn-outline-light mt-1 ">Voir demos sur Github<i class="bi-chevron-double-right"></i></a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
